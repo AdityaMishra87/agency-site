@@ -6,7 +6,7 @@ import Services from './components/Services'
 import OurWork from './components/OurWork'
 import Teams from './components/Teams'
 import ContactUs from './components/ContactUs'
-
+import { Toaster } from "react-hot-toast";
 import Footer from './components/Footer'
 
 
@@ -25,8 +25,10 @@ const App = () => {
       <Teams />
       <ContactUs />
       <Footer theme ={theme} />
+      <Toaster position="top-right" />
+
     </div>
-  )
+  ) 
 }
 
 export default App

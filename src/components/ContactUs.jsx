@@ -1,7 +1,8 @@
 import React from 'react'
 import Title from './Title'
 import assets from '../assets/assets'
-import toast from 'react-hot-toast'
+import { toast } from "react-hot-toast";
+
 
 const ContactUs = () => {
   const onSubmit = async (event)=>{
